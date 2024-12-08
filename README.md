@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Product Listing Project - Hackathon
 
-## Getting Started
+## Overview
+This project is part of a hackathon assignment where we were required to implement a UI/UX design based on a Figma template assigned to us based on the last digit of our roll number. The focus was primarily on implementing the frontend using **Next.js with App Router** and achieving a **pixel-perfect, responsive design**.
 
-First, run the development server:
+## My Details
+- **Name**: Muhammad Taha Sami
+- **Roll Number**: 00088802
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I thoroughly enjoyed working on this project and learned many new things, especially around app routing, dynamic routing, and creating responsive designs. It was a great experience working on this hackathon, and I look forward to applying what I've learned in future projects.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Purpose
+This project simulates a product listing page, where users can:
+- View all available products at the `/allproducts` route.
+- Access an about page with information about the site at the `/about` route.
+- Browse specific product listings at the `/productlisting` route.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The purpose of the project is to practice using **Next.js App Router** for dynamic routing and build a responsive, user-friendly interface using **Tailwind CSS** and **Custom CSS**.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Key Components Implemented
+- **App Routing**: Implemented dynamic routes in Next.js using the App Router. Key routes include:
+  - `/allproducts` - Displays a list of all available products.
+  - `/about` - Displays information about the website.
+  - `/productlisting` - Displays detailed product listings.
+  
+- **Responsive Design**: Ensured the design is fully responsive on all screen sizes using **Tailwind CSS** and custom CSS.
 
-## Learn More
+- **UI/UX Implementation**: Focused on achieving a pixel-perfect design based on the provided Figma template, ensuring a consistent user experience.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Libraries Used**:
+  - **Next.js** for routing and building the web app.
+  - **Tailwind CSS** for styling and making the design responsive.
+  - **Custom CSS** for additional styling as per the design requirements.
