@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Navbar from "./components/navbar";
 import NavbarMain from "./components/navbarmain";
 import Hero from "./components/hero";
 import BrandDifference from "./components/featurs";
