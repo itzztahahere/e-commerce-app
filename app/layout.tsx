@@ -16,13 +16,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* Import Clash Display font */}
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;700&display=swap"
-        />
-      </head>
       <body className={inter.className}>{children}</body>
       
     </html>
